@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Run TLauncher</title>
+<script src="https://cjrtnc.leaningtech.com/4.2/loader.js"></script>
+</head>
+<body>
+<script>
+(async function() {
+  await cheerpjInit();
+  cheerpjCreateDisplay(800, 600);
+  await cheerpjRunJar("https://raw.githubusercontent.com/newmancamdin-debug/java-runner/main/TLauncher.jar");
+})();
+</script>
+</body>
+</html>
